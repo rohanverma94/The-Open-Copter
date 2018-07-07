@@ -1,7 +1,18 @@
-#include "quadcopter_config.h"
+﻿/*Begining of Auto generated code by Atmel studio */
+#include <Arduino.h>
+
+/*End of auto generated code by Atmel studio */
+
 #include <PID_v1.h>
+
+
+
+
+
+#include "quadcopter_config.h"
 #include <Wire.h>
 #include<Servo.h>
+#include <SPI.h>
 #include"RF24.h"
 
 
@@ -12,6 +23,7 @@ int throttle=THROTTLE_RMIN;
 static bool goodSignal;
 
 RF24 rx(7,8);
+unsigned long lastRecvTime = 0;
 
 
 double pid_roll_in,   pid_roll_out,   pid_roll_setpoint = 0;
@@ -21,6 +33,16 @@ double pid_yaw_in,    pid_yaw_out,    pid_yaw_setpoint = 0;
 
 int m0, m1, m2, m3; 
 int i=0;
+#include "Receiver.h"
+#include "pid_controller.h"
+#include "motor_initialize.h"
+#include "control_movement_update.h"
+//Beginning of Auto generated function prototypes by Atmel Studio
+//End of Auto generated function prototypes by Atmel Studio
+
+
+
+
 
 
 void setup() 
@@ -45,7 +67,6 @@ void setup()
   
 }
 
-unsigned long lastRecvTime = 0;
 
 void loop() 
 {
