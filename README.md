@@ -8,7 +8,7 @@
 
 *  Visual Studio to back Atmel Studio
 
-There is no need to add any extra libraries. All open source libraries are embedded in the project itself, the following are the libraries used and are licensed under repective project license:
+There is no need to add any extra libraries. All open source libraries are embedded in the project itself, the following are the libraries used and they are licensed under respective project license:
 
 * jrowberg's I2CDevlib
 * RF24 library
