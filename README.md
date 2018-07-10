@@ -12,3 +12,5 @@ There is no need to add any extra libraries. All open source libraries are embed
 
 * jrowberg's I2CDevlib
 * RF24 library
+
+For more information visit [my blog](https://cryptecx.xyz).
