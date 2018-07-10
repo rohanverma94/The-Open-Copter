@@ -12,6 +12,9 @@ There is no need to add any extra libraries. All open source libraries are embed
 * jrowberg's I2CDevlib
 * RF24 library
 
+## Directory Structure ##
 
+* (root-dir)/ quadcopter-core - core firmware for quadcopter.
+* (root-dir)/ quadcopter-simulation - matlab/octave simulation for quadcopter.
 
 For more information visit [my blog](https://cryptecx.xyz).
