@@ -1,6 +1,6 @@
-# Semi-Autonomous Quadcoper #
+# TOC - The Open Copter #
 
- Semi-Autonomous-Quadcopter is made with help of Accelerometer,Gyroscope and Magnetometer which is present on single chip MPU9250 with help of I2C interface and AVR Atmega328 microcontroller to give stable output to the underlying PID routine which does all the balancing for Quadcopter in air. 
+ TOC or The Open Copter is a semi-autonomous-quadcopter which is made with help of Accelerometer,Gyroscope and Magnetometer which is present on single chip MPU9250 with help of I2C interface and AVR Atmega328 microcontroller to give stable output to the underlying PID routine which does all the balancing for Quadcopter in air. 
 
  ## Requirement ##
 
@@ -16,5 +16,6 @@ There is no need to add any extra libraries. All open source libraries are embed
 
 * (root-dir)/ quadcopter-core - core firmware for quadcopter.
 * (root-dir)/ quadcopter-simulation - matlab/octave simulation for quadcopter.
+* (root-dir)/ quacopter-documentation - quadcopter full documentation
 
 For more information visit [my blog](https://cryptecx.xyz).
