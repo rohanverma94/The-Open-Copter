@@ -22,15 +22,15 @@ There is no need to add any extra libraries. All open source libraries are embed
 
 Top View of Quadcopter:
 
-![topview](images/IMG_0174.jpg)
+![topview](/images/IMG_0174.jpg)
 
 Side View of Quadcopter:
 
-![sideview](images/IMG_0292.jpg)
+![sideview](/images/IMG_0292.jpg)
 
 Hand-held Conroller:
 
-![controller](images/IMG_0178.jpg)
+![controller](/images/IMG_0178.jpg)
 
 For more information visit [my blog](https://cryptecx.xyz).
 
@@ -38,14 +38,14 @@ Hand-held Controller construction:
 
 Basically a modified game-boy controller, the joystick is kept intatct but main controller board from game-boy is removed , and a arduino nano is  installed in place of that.
 
-![controller-construction](images/IMG_0182.jpg)
+![controller-construction](/images/IMG_0182.jpg)
 
 Main board construction Quadcopter:
 
-![CNC](images/IMG_0181.jpg)
+![CNC](/images/IMG_0181.jpg)
 
 
-![CNC](images/IMG_0179.jpg)
+![CNC](/images/IMG_0179.jpg)
 
 
-![layout](images/IMG_0180.jpg)
+![layout](/images/IMG_0180.jpg)
