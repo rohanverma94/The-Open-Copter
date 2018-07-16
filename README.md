@@ -39,6 +39,8 @@ where COMxx is port no. eg. COM34
 
 ### Hand-Held Controller Firmware: ###
 
+* Command Line via avrdude (Linux)
+
 avrdude -v -p atmega328p -c arduino -P /dev/ttyUSB0 -b 57600 -D -U flash:w: transmitter_rf24.hex:i
 
     -b This option sets the baud rate for communicating with the board
