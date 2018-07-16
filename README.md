@@ -22,7 +22,7 @@ There is no need to add any extra libraries. All open source libraries are embed
 
 Top View of Quadcopter:
 
-![topview](The-Open-Copter/images/IMG_0174.jpg)
+![topview](/images/IMG_0174.jpg)
 
 Side View of Quadcopter:
 
