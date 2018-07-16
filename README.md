@@ -29,24 +29,22 @@ Side View of Quadcopter:
 
 <img src="https://github.com/rohan-0100010110010100/The-Open-Copter/raw/master/images/IMG_0292.JPG" width="800" /> 
 
-![sideview](https://raw.githubusercontent.com/rohan-0100010110010100/The-Open-Copter/master/images/IMG_0292.jpg?raw=true)
 
 Hand-held Conroller:
 
-![controller](images/IMG_0178.jpg)
-
+<img src="https://github.com/rohan-0100010110010100/The-Open-Copter/raw/master/images/IMG_0178.JPG" width="800" /> 
 Hand-held Controller construction:
 
 Basically a modified game-boy controller, the joystick is kept intatct but main controller board from game-boy is removed , and a arduino nano is  installed in place of that.
 
-![controller-construction](images/IMG_0182.jpg)
+<img src="https://github.com/rohan-0100010110010100/The-Open-Copter/raw/master/images/IMG_0182.JPG" width="800" /> 
 
 Main board construction Quadcopter:
 
-![CNC](images/IMG_0181.jpg)
+<img src="https://github.com/rohan-0100010110010100/The-Open-Copter/raw/master/images/IMG_0181.JPG" width="800" /> 
 
 
-![CNC](images/IMG_0179.jpg)
+<img src="https://github.com/rohan-0100010110010100/The-Open-Copter/raw/master/images/IMG_0179.JPG" width="800" /> 
 
 
-![layout](images/IMG_0180.jpg)
+<img src="https://github.com/rohan-0100010110010100/The-Open-Copter/raw/master/images/IMG_0180.JPG" width="800" /> 
