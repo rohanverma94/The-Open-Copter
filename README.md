@@ -17,6 +17,7 @@ There is no need to add any extra libraries. All open source libraries are embed
 * (root-dir)/ quadcopter-core - core firmware for quadcopter.
 * (root-dir)/ quadcopter-simulation - matlab/octave simulation for quadcopter.
 * (root-dir)/ quacopter-documentation - quadcopter full documentation
+* (root-dir)/ quadcopter-conroller - hand-held controller
 
 For more information visit [my blog](https://cryptecx.xyz).
 ## The Open Copter in action ##
