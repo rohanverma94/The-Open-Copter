@@ -23,10 +23,11 @@ For more information visit [my blog](https://cryptecx.xyz).
 
 Top View of Quadcopter:
 
-![topview](images/IMG_0174.jpg)
+<img src="images/IMG_0174.jpg" width="800" /> 
 
 Side View of Quadcopter:
 
+<img src="images/IMG_0292.jpg" width="800" /> 
 ![sideview](images/IMG_0292.jpg)
 
 Hand-held Conroller:
