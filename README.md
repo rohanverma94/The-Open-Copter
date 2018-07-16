@@ -19,12 +19,11 @@ There is no need to add any extra libraries. All open source libraries are embed
 * (root-dir)/ quacopter-documentation - quadcopter full documentation
 
 For more information visit [my blog](https://cryptecx.xyz).
-
 ## The Open Copter in action ##
 
 Top View of Quadcopter:
 
-![topview](./images/IMG_0174.png)
+![topview](https://raw.githubusercontent.com/username/projectname/branch/master/images/IMG_0174.jpg)
 
 Side View of Quadcopter:
 
