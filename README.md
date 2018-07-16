@@ -23,7 +23,7 @@ For more information visit [my blog](https://cryptecx.xyz).
 
 Top View of Quadcopter:
 
-![topview](https://raw.githubusercontent.com/rohan-0100010110010100/The-Open-Copter/master/images/IMG_0174.png)
+![topview](./images/IMG_0174.jpg?raw=true)
 
 Side View of Quadcopter:
 
