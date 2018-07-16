@@ -23,12 +23,13 @@ For more information visit [my blog](https://cryptecx.xyz).
 
 Top View of Quadcopter:
 
-<img src="./images/IMG_0174.png?raw=true" width="800" /> 
+<img src="https://github.com/rohan-0100010110010100/The-Open-Copter/raw/master/images/IMG_0174.JPG" width="800" /> 
 
 Side View of Quadcopter:
 
-<img src="./images/IMG_0292.jpg" width="800" /> 
-![sideview](images/IMG_0292.jpg)
+<img src="https://github.com/rohan-0100010110010100/The-Open-Copter/raw/master/images/IMG_0292.JPG" width="800" /> 
+
+![sideview](https://raw.githubusercontent.com/rohan-0100010110010100/The-Open-Copter/master/images/IMG_0292.jpg?raw=true)
 
 Hand-held Conroller:
 
