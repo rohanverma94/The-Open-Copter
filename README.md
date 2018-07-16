@@ -19,6 +19,38 @@ There is no need to add any extra libraries. All open source libraries are embed
 * (root-dir)/ quacopter-documentation - quadcopter full documentation
 * (root-dir)/ quadcopter-controller - hand-held controller
 
+## Uploading Firmware(s) ##
+
+### Core Firmware: ###
+
+* Command Line via avrdude (Linux)
+
+avrdude -v -p atmega328p -c arduino -P /dev/ttyUSB0 -b 57600 -D -U flash:w: quadcopter.hex:i
+
+    -b This option sets the baud rate for communicating with the board
+    -p This specifies the target type. The configuration file for avrdude has a long list of supported targets, with all the important parameters for each.
+    -P Specifies the communication port. As soon as the device is hooked up to your USB, it should be assigned a file in /dev/, and this is the string that needs to be passed to the -P option. The easiest way to find this is just dmesg | grep ttyUSB*
+
+* Command Line via avrdude (Windows)
+
+avrdude -v -p atmega328p -c arduino -P .COMxx -b 57600 -D -U flash:w: quacopter.hex:i
+
+where COMxx is port no. eg. COM34
+
+### Hand-Held Controller Firmware: ###
+
+avrdude -v -p atmega328p -c arduino -P /dev/ttyUSB0 -b 57600 -D -U flash:w: transmitter_rf24.hex:i
+
+    -b This option sets the baud rate for communicating with the board
+    -p This specifies the target type. The configuration file for avrdude has a long list of supported targets, with all the important parameters for each.
+    -P Specifies the communication port. As soon as the device is hooked up to your USB, it should be assigned a file in /dev/, and this is the string that needs to be passed to the -P option. The easiest way to find this is just dmesg | grep ttyUSB*
+
+* Command Line via avrdude (Windows)
+
+avrdude -v -p atmega328p -c arduino -P .COMxx -b 57600 -D -U flash:w: transmitter_rf24.hex:i
+
+
+
 For more information visit [my blog](https://cryptecx.xyz).
 ## The Open Copter in action ##
 
