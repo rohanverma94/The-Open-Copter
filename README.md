@@ -72,7 +72,7 @@ Hand-held Conroller:
 <img src="https://github.com/rohan-0100010110010100/The-Open-Copter/raw/master/images/IMG_0178.JPG" width="800" /> 
 Hand-held Controller construction:
 
-Basically a modified game-boy controller, the joystick is kept intatct but main controller board from game-boy is removed , and a arduino nano is  installed in place of that.
+Basically a modified game-boy controller, the joystick is kept intact but main controller board from game-boy is removed , and a arduino nano is  installed in place of that.
 
 <img src="https://github.com/rohan-0100010110010100/The-Open-Copter/raw/master/images/IMG_0182.JPG" width="800" /> 
 
