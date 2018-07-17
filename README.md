@@ -14,18 +14,20 @@ There is no need to add any extra libraries. All open source libraries are embed
 
 ## Directory Structure ##
 
-* (root-dir)/ quadcopter-core - core firmware for quadcopter.
-* (root-dir)/ quadcopter-simulation - matlab/octave simulation for quadcopter.
-* (root-dir)/ quacopter-documentation - quadcopter full documentation
-* (root-dir)/ quadcopter-controller - hand-held controller
+* (project-root-dir)/ quadcopter-core - core firmware for quadcopter.
+* (project-root-dir)/ quadcopter-simulation - matlab/octave simulation for quadcopter.
+* (project-root-dir)/ quacopter-documentation - quadcopter full documentation
+* (project-root-dir)/ quadcopter-controller - hand-held controller
 
 ## Uploading Firmware(s) ##
+
+Navigate to (project-root-dir) then do following:
 
 ### Core Firmware: ###
 
 * Command Line via avrdude (Linux)
 
-avrdude -v -p atmega328p -c arduino -P /dev/ttyUSB0 -b 57600 -D -U flash:w: quadcopter.hex:i
+avrdude -C "avrdude.conf" -v -p atmega328p -c arduino -P /dev/ttyUSB0 -b 57600 -D -U flash:w: quadcopter.hex:i
 
     -b This option sets the baud rate for communicating with the board
     -p This specifies the target type. The configuration file for avrdude has a long list of supported targets, with all the important parameters for each.
@@ -33,7 +35,7 @@ avrdude -v -p atmega328p -c arduino -P /dev/ttyUSB0 -b 57600 -D -U flash:w: quad
 
 * Command Line via avrdude (Windows)
 
-avrdude -v -p atmega328p -c arduino -P .COMxx -b 57600 -D -U flash:w: quacopter.hex:i
+avrdude -C "avrdude.conf" -v -p atmega328p -c arduino -P .COMxx -b 57600 -D -U flash:w: quacopter.hex:i
 
 where COMxx is port no. eg. COM34
 
@@ -41,7 +43,7 @@ where COMxx is port no. eg. COM34
 
 * Command Line via avrdude (Linux)
 
-avrdude -v -p atmega328p -c arduino -P /dev/ttyUSB0 -b 57600 -D -U flash:w: transmitter_rf24.hex:i
+avrdude -C "avrdude.conf" -v -p atmega328p -c arduino -P /dev/ttyUSB0 -b 57600 -D -U flash:w: transmitter_rf24.hex:i
 
     -b This option sets the baud rate for communicating with the board
     -p This specifies the target type. The configuration file for avrdude has a long list of supported targets, with all the important parameters for each.
@@ -49,7 +51,7 @@ avrdude -v -p atmega328p -c arduino -P /dev/ttyUSB0 -b 57600 -D -U flash:w: tran
 
 * Command Line via avrdude (Windows)
 
-avrdude -v -p atmega328p -c arduino -P .COMxx -b 57600 -D -U flash:w: transmitter_rf24.hex:i
+avrdude -C "avrdude.conf" -v -p atmega328p -c arduino -P .COMxx -b 57600 -D -U flash:w: transmitter_rf24.hex:i
 
 
 
