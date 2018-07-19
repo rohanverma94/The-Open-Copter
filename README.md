@@ -1,6 +1,6 @@
 # TOC - The Open Copter #
 
-  TOC or The Open Copter is a semi-autonomous-quadcopter which is made with Accelerometer,Gyroscope and Magnetometer by using I2C interface and AVR Atmega328 microcontroller. The Accelerometer,Gyroscope and Magnetometer is present on single chip MPU9250, the MPU9250's I2C interface and AVR Atmega328 microcontroller is used to give stable output to the underlying PID routine which does all the balancing for Quadcopter in air. 
+  TOC or The Open Copter is a semi-autonomous-quadcopter which is made with Accelerometer,Gyroscope and Magnetometer which is present on single chip MPU9250. By using MPU9250's I2C interface and AVR Atmega328 microcontroller stable output is given to the underlying PID routine which does all the balancing for Quadcopter in air. Also the chip NRF24L01 is used so that wireless communication from hand-held controller to receiver on Quadcoder can happen. Also Designed a replica of Quadcopter using OpenGL and Processing for simulation purpose.
 
  ## Requirement ##
 
